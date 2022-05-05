@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Splash.InitActivity" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="android:windowSplashScreenBackground">@color/white</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@android:color/holo_blue_bright</item>
+
+        <!--        if you not provide anything here then default launcher icon will be used-->
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_kotlin_animated</item>
+
+        <!--        icon animation duration-->
+        <item name="android:windowSplashScreenAnimationDuration">@integer/icon_animator_duration</item>
+
+        <!--        below icon-->
+        <item name="android:windowSplashScreenBrandingImage">@drawable/branding</item>
+
+    </style>
+</resources>
